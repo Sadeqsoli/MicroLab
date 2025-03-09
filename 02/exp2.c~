@@ -1,0 +1,54 @@
+#include <delay.h>
+#include <mega32.h>
+#include <io.h>
+
+
+void main(void)
+{
+    DDRD = 0xFF;
+    
+    while (1)
+        {   
+             PORTD = 0 ; 
+            delay_ms(100);
+            PORTD = 1 ; 
+            delay_ms(100);  
+            PORTD = 2 ; 
+            delay_ms(100);
+            PORTD = 3 ; 
+            delay_ms(100);
+            PORTD = 4 ; 
+            delay_ms(100);
+            PORTD = 5 ; 
+            delay_ms(100);
+            PORTD = 6 ; 
+            delay_ms(100);
+            PORTD = 7 ; 
+            delay_ms(100); 
+            PORTD = 8 ; 
+            delay_ms(100);
+            PORTD = 9 ; 
+            delay_ms(100);
+           /* PORTD = 0x10 ; 
+            delay_ms(100);  
+            PORTD = 0x00 ; 
+            delay_ms(100);
+            PORTD = 0x78 ; 
+            delay_ms(100);
+            PORTD = 0x02 ; 
+            delay_ms(100);
+            PORTD = 0x12 ; 
+            delay_ms(100);
+            PORTD = 0x19 ; 
+            delay_ms(100);
+            PORTD = 0x30 ; 
+            delay_ms(100); 
+            PORTD = 0x24 ; 
+            delay_ms(100);
+            PORTD = 0x79 ; 
+            delay_ms(100); 
+            PORTD = 0x40 ; 
+            delay_ms(100);   */
+            
+        }
+}
